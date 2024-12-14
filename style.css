@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+   
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'poppins',sans-serif;
+  
+
+}
+body{
+      background-color: rgba(145, 140, 150, 0.7);
+
+}
+.main{
+    width: 70%;
+    scroll-behavior: smooth;
+    border-radius: 1rem;
+    background-color: white;
+    margin: 1rem;
+    margin-left: 12.6rem;
+    display: inline-block;
+
+}
+.header{
+    display:flex;
+   padding: 2rem;
+    word-spacing: 3rem;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    background-color: ghostwhite;
+    width: 69%;
+    border-radius: 1rem;
+
+
+}
+.resume{
+float: right;
+}
+.logo{
+    padding: 0.9rem;
+    margin-top: -1rem;
+    font-weight: 600;
+}
+
+
+.home-image{
+
+    margin-left: 30%;
+    
+    justify-content: space-between;
+
+}
+.home-image img{
+    width: 25%;
+    height: 25%;
+    border-radius: 5rem;
+    margin-top: 9rem;
+    margin-bottom: -8rem;
+
+}
+.home-image h1{
+    font-weight: 800;
+    margin-left: 11rem;
+    color: orangered;
+}
+.home-image h1 span{
+    color: whitesmoke;
+    background: repeating-linear-gradient(black,lightskyblue);
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 0.2em;
+}
+h3 .fa{
+    padding: 2rem;
+    background-color: #54f2;
+}
+.home-image h1 span:hover{
+    background: repeating-linear-gradient(skyblue,black);
+
+}
+.home-content{
+     margin: 0.3rem;
+    padding: 3rem;
+    background-color:#fff1;
+    justify-content: center;
+    align-items: center;
+}
+.home-content h1{
+  
+    border-bottom: 2px solid orangered;
+    border-width: 0.3rem;
+
+}
+.home-content #about{
+    padding: 2rem;
+    margin: 0.7rem;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 40%;
+    background: transparent;
+    backdrop-filter: contrast(-10%);
+   
+
+}
+.home-content #education{
+    padding: 3rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 40%;
+
+}
+.home-content #skills{
+    padding: 3rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 40%;
+
+} 
+#skills span{
+    
+    font-weight: 700;
+
+}
+#skills p{
+    text-transform: capitalize;
+}
+.home-content #contact{
+    padding: 3rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 40%;
+
+} 
+.input{
+    padding: 2rem;
+    margin: 1rem;
+    background-color: rgba(56, 68, 90, 6.0);
+}
+.input label{
+    color: whitesmoke;
+     margin-left: 3rem;
+
+}
+label::before{
+    content: "";
+    color: red;
+}
+label::after{
+    content: "*";
+    color: red;
+}
+.input input{
+    padding: 0.6em;
+    width: 80%;
+    border-radius: 0.3em;
+    background-color: ghostwhite;
+    font-weight: 600;
+    margin-left: 3rem;
+
+
+}
+.input textarea{
+    padding: 0.6em;
+    width: 80%;
+    border-radius: 0.3em;
+    background-color: ghostwhite;
+    font-weight: 600;
+     margin-left: 3rem;
+}
+button{
+    border-radius: 0.6em;
+    border: none;
+    background-color: white;
+    font-weight: 600;
+    padding: 0.6rem;
+    margin-left: 3rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: orangered;
+    color: white;
+}
